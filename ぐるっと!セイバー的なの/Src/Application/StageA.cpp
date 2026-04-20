@@ -9,7 +9,7 @@ void C_StageA::Init()
 	m_player->Init();
 
 	m_tower = new C_Tower();
-	m_tower->Init();
+	m_tower->Init(0.0f);
 }
 
 void C_StageA::Release()

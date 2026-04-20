@@ -48,6 +48,8 @@ private:
 	// 
 	Application() {}
 
+	float Tested = 0.0f;
+
 public:
 	static Application &GetInstance(){
 		static Application Instance;
